@@ -27,7 +27,7 @@ body{
 }
 .nav-link{
     text-decoration: none;
-    margin-right: 0.9em;
+    margin-right: 1em;
     color: rgb(14, 13, 13);
     font-weight: 500;
 }
@@ -123,6 +123,15 @@ body{
 #form input:not(:first-child){
     margin-top: 1em;
     font-size: 1.1em;
+}
+
+
+footer{
+    background-color:  #FAFAFA;
+    text-align: center;
+    font-weight: 700;
+    color: #B1A18A;
+    padding-bottom: 1em;
 }
 
 
