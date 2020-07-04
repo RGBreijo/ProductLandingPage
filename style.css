@@ -1,0 +1,128 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    background-color: #FFFFFF;
+    
+}
+
+#header{
+    position: fixed;
+    width: 100vw;
+    height: 130px;
+    background-color: #FFFFFF;
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.header-logo img{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+#header ul{
+    list-style: none;
+    line-height: 2em;
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 0.9em;
+    color: rgb(14, 13, 13);
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: #B1A18A;
+}
+
+
+.main-img{
+    display: none;
+}
+
+.desktop-logo{
+    display: none; 
+    width: 100%;
+    height: auto;
+}
+
+/* padding 130px due to fixed position of nav bar */
+.watch-video{
+    padding-top: 130px;
+    text-align: center;
+    padding-bottom: 0.8em;
+}
+
+.watch-video p{
+    line-height: 1.8em;
+}
+
+.watch-video iframe{
+    width: 100%;
+    border: none;
+}
+
+
+
+
+.available-watches{
+    margin: 1em;
+}
+
+.available-watches h2{
+    text-align: center;
+    color: #B1A18A;
+}
+
+.available-watchs-img{
+    width: 100%;
+}
+
+.available-watches div{
+
+    border-radius: 5px;
+    text-align: center;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-color: #FAFAFA;
+}
+
+.available-watches p{
+    line-height: 1.8em;
+}
+
+
+.available-watches h3{
+    color: #B1A18A;
+}
+.available-watches button, #form input:not(:first-child){
+    padding: 0.5em;
+    border: none;
+    background-color: #B1A18B;
+    color: white;
+    font-size: 1.1em;
+}
+
+
+.email-signup{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+    padding-bottom: 2em;
+    color: #B1A18A;
+}
+
+#form input:first-child{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em
+}
+
+#form input:not(:first-child){
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+
+
