@@ -17,6 +17,11 @@ body{
 }
 
 /* mobile */
+
+
+
+/* mobile header */
+
 .header-logo img{
     margin-top: 10px;
     max-width: 200px;
@@ -44,16 +49,16 @@ body{
 }
 
 
-.main-img{
-    display: none;
-}
-
 .desktop-logo{
     display: none; 
     width: 100%;
     height: auto;
 }
 
+
+
+
+/* mobiiel watch video  */
 
 .watch-video{
     padding-top: 140px; /* padding 140px due to fixed position (out of doc flow) of the header being 130px */
@@ -75,6 +80,8 @@ body{
     display: none;
 }
 
+
+/* mobile available-watches */
 
 .available-watches{
     margin: 1em;
@@ -120,6 +127,8 @@ body{
 
 
 
+/* mobile email-signup */
+
 .email-signup{
     display: flex; 
     justify-content: center;
@@ -143,6 +152,8 @@ body{
 }
 
 
+
+/* mobile footer */
 footer{
     background-color:  #FAFAFA;
     text-align: center;
@@ -188,12 +199,14 @@ footer{
     
 }
 
+
 @media only screen and (min-width: 780px){
       #long-content{
         display: block;
     }
     
 }
+
 
 @media only screen and (min-width: 660px){
 
@@ -215,7 +228,6 @@ footer{
         column-gap: 2em;
         row-gap: 2em;
     }
-
 
     .watch-one{
         grid-column: 2;
