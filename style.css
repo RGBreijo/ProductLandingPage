@@ -1,9 +1,20 @@
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url("fonts/Montserrat/Montserrat-Regular.ttf");
+  }
+
+
 body{
     margin: 0; 
     padding: 0; 
     background-color: #FFFFFF;
-    
+    font-family: 'Montserrat-Regular', 'sans-serif';
 }
+
+  .services{
+    background-color: #FFFFFF;
+  }
 
 #header{
     position: fixed;
@@ -117,7 +128,7 @@ body{
 .available-watches h3{
     color: #B1A18A;
 }
-.available-watches button, #form input:not(:first-child){
+.available-watches button, #form button{
     padding: 0.5em;
     border: none;
     background-color: #B1A18B;
@@ -146,7 +157,7 @@ body{
     padding: 1em
 }
 
-#form input:not(:first-child){
+#form button{
     margin-top: 1em;
     font-size: 1.1em;
 }
@@ -224,6 +235,9 @@ footer{
         margin-right: 20px;
     }
 
+    .available-watches h2{
+        font-size: 2em;
+    }
     .watch-list{
         display: grid; 
         grid-template-columns: repeat(3, 1fr);
